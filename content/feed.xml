@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>DRUG.org.pl</title>
+    <description>Dolnośląska Grupa Użytkowników Ruby</description>
+    <link>https://drug.org.pl/</link>
+    <atom:link href="https://drug.org.pl/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Test item title</title>
+      <description></description>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      <link>https://drug.org.pl?testinglink=true</link>
+      <guid>c0b883e3-1817-4a7a-b45c-a769cc91638a</guid>
+    </item>
+  </channel>
+</rss>
