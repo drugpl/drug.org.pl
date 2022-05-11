@@ -6,6 +6,13 @@
     <link>https://drug.org.pl/</link>
     <atom:link href="https://drug.org.pl/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>Testowa wiadomosc od swistaka 9:45</title>
+      <description>Tutaj opis wiadomosci</description>
+      <pubDate>Tue, 11 May 2022 00:00:00 +0000</pubDate>
+      <link>https://drug.org.pl?testinglink=true</link>
+      <guid>166b73e5-d176-4e2c-9870-1b31dfcd6666</guid>
+    </item>
+    <item>
       <title>Test item title</title>
       <description></description>
       <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
