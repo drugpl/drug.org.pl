@@ -4,4 +4,3 @@ set -e
 set -x
 
 bundle check || bundle install
-yarn install

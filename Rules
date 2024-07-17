@@ -1,14 +1,14 @@
 #!/usr/bin/env ruby
 
-ignore '/main.*'
+ignore "/main.*"
 
-compile '/**/*.html' do
-  layout '/default.*'
+compile "/**/*.html" do
+  layout "/default.*"
 
-  if item.identifier =~ '**/index.*'
+  if item.identifier =~ "**/index.*"
     write item.identifier.to_s
   else
-    write item.identifier.without_ext + '/index.html'
+    write item.identifier.without_ext + "/index.html"
   end
 end
 
@@ -27,8 +27,8 @@ end
 #  end
 #end
 
-compile '/**/*' do
+compile "/**/*" do
   write item.identifier.to_s
 end
 
-layout '/**/*', :erb
+layout "/**/*", :erb
