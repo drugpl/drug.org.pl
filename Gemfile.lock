@@ -24,7 +24,8 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    ffi (1.17.0)
+    ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x86_64-darwin)
     foreman (0.88.1)
     formatador (1.1.0)
     guard (2.18.1)
@@ -128,7 +129,8 @@ GEM
     zeitwerk (2.6.16)
 
 PLATFORMS
-  ruby
+  arm64-darwin
+  x86_64-darwin
 
 DEPENDENCIES
   adsf
