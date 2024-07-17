@@ -3,8 +3,6 @@
 ignore "/main.*"
 
 compile "/**/*.html" do
-  layout "/default.*"
-
   if item.identifier =~ "**/index.*"
     write item.identifier.to_s
   else
@@ -15,5 +13,3 @@ end
 compile "/**/*" do
   write item.identifier.to_s
 end
-
-layout "/**/*", :erb
