@@ -58,7 +58,6 @@ GEM
     eventmachine (1.2.7)
     ffi (1.17.0-arm64-darwin)
     ffi (1.17.0-x86_64-darwin)
-    foreman (0.88.1)
     formatador (1.1.0)
     guard (2.18.1)
       formatador (>= 0.2.4)
@@ -213,7 +212,6 @@ PLATFORMS
 DEPENDENCIES
   adsf
   adsf-live
-  foreman
   guard-nanoc
   nanoc
   tailwindcss-rails
